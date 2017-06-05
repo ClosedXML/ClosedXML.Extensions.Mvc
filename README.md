@@ -1,5 +1,5 @@
 # ClosedXML.Extensions.Mvc
-MVC Extensions for ClosedXML
+MVC Extensions for [ClosedXML](https://github.com/ClosedXML/ClosedXML)
 
 ## Install via NuGet
 
