@@ -7,7 +7,6 @@ using System.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 #endif
 
-
 namespace ClosedXML.Extensions
 {
     public static class MvcExtensions
@@ -23,7 +22,6 @@ namespace ClosedXML.Extensions
             {
                 FileDownloadName = fileName
             };
-
         }
     }
 }
