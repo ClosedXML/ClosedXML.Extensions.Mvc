@@ -1,11 +1,6 @@
-﻿using ClosedXML.Excel;
+﻿using Microsoft.AspNetCore.Mvc;
+using ClosedXML.Excel;
 using System.IO;
-
-#if _NETFRAMEWORK_
-using System.Web.Mvc;
-#else
-using Microsoft.AspNetCore.Mvc;
-#endif
 
 namespace ClosedXML.Extensions
 {
