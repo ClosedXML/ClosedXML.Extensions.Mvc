@@ -14,6 +14,15 @@ PM> Install-Package ClosedXML.Extensions.Mvc
 In your MVC controller define an action that will generate and download your file:
 
 ```c#
+private ClosedXML.Excel.XLWorkbook GenerateClosedXMLWorkbook()
+{
+    var wb = new ClosedXML.Excel.XLWorkbook();
+    var ws = wb.AddWorksheet();
+    ws.FirstCell().SetValue("Hello world!");
+    ws.FirstCell().CellBelow().FormulaA1 = "RAND()";
+    return wb;
+}
+
 public ActionResult Download()
 {
     using (var wb = GenerateClosedXMLWorkbook())
