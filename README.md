@@ -1,6 +1,8 @@
 # ClosedXML.Extensions.Mvc
 MVC Extensions for [ClosedXML](https://github.com/ClosedXML/ClosedXML)
 
+[![NuGet Badge](https://buildstats.info/nuget/ClosedXML.Extensions.Mvc)](https://www.nuget.org/packages/ClosedXML.Extensions.Mvc/)
+
 ## Install via NuGet
 
 To install ClosedXML.Extensions.Mvc for .NET Core, run the following command in the Package Manager Console
