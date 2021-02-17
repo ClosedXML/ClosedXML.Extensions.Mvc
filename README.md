@@ -3,12 +3,17 @@ MVC Extensions for [ClosedXML](https://github.com/ClosedXML/ClosedXML)
 
 ## Install via NuGet
 
-To install ClosedXML.Extensions.Mvc, run the following command in the Package Manager Console
+To install ClosedXML.Extensions.Mvc for .NET Core, run the following command in the Package Manager Console
 
-```
+```PowerShell
 PM> Install-Package ClosedXML.Extensions.Mvc
 ```
 
+If you're using .NET Framework, please install v0.2.2 
+
+```PowerShell
+PM> Install-Package ClosedXML.Extensions.Mvc -Version 0.2.2
+```
 
 ## Usage
 In your MVC controller define an action that will generate and download your file:
